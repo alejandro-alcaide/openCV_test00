@@ -1,6 +1,11 @@
 import cv2
-print('cv2 package imported successfuly')
 
-img = cv2.imread("resources/lena.png")
+path_to_img = "resources/lena.png"
+img = cv2.imread(path_to_img)
+
+
+
+
+
 cv2.imshow("Output", img)
 cv2.waitKey(0)
