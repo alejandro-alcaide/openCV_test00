@@ -1,5 +1,4 @@
 import cv2
-print('cv2 package imported successfuly')
 
 # from a file
 #cap = cv2.VideoCapture("resources/v00.mp4")
