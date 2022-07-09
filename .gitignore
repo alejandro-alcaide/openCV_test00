@@ -1,4 +1,5 @@
 
 __pycache__/*
 resources/*.mp4
-resources/haarcascades/*
+resources/haarcascades
+resources/dont_upload
