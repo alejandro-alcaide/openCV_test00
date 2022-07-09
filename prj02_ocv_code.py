@@ -7,7 +7,7 @@ widthImg=540
 heightImg =640
 #####################################
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 cap.set(10,150)
 
 
