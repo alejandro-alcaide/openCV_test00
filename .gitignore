@@ -3,3 +3,4 @@ __pycache__/*
 resources/*.mp4
 resources/haarcascades/*.xml
 resources/dont_upload
+resources/car_plate_scans/*
