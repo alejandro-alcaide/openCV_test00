@@ -26,6 +26,7 @@ while True:
             cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 255), 2)
             cv2.putText(img, "Car Plate", (x, y - 5),
                         cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, color, 2)
+            # roi = region of interest
             img_roi = img[y:y + h, x:x + w]
             cv2.imshow("Image ROI", img_roi)
 
