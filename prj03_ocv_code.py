@@ -3,11 +3,11 @@ import cv2
 #############################################
 frameWidth = 640
 frameHeight = 480
-nPlateCascade = cv2.CascadeClassifier("resources/haarcascades/haarcascade_russian_plate_number.xml")
+nPlateCascade = cv2.CascadeClassifier("Resources/haarcascade_russian_plate_number.xml")
 minArea = 200
 color = (255,0,255)
 ###############################################
-cap = cv2.VideoCapture("resources/video12.mp4")
+cap = cv2.VideoCapture("Resources/video12.mp4")
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
