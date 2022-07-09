@@ -67,6 +67,7 @@ def get_contours(img_canny):
             # with x, y, w, h draw boxes around each figure from point x, y to x+w, y+h
             # from these, info like coordinates, total width, height, center of the figure can be gathered
             cv2.rectangle(img_blank, (x, y), (x + w, y + h), (255, 0, 255), 3)
+
             figure_type = None
             if corners_count == 3:
                 figure_type = "Triangle"
@@ -95,3 +96,5 @@ def get_contours(img_canny):
             print(f"area: {area}, perimeter: {perimeter}, corners_count: {corners_count}, x:{x}, y:{y}, w: {w}, h:{h},"
                   + f" figure_type: {figure_type}")
     return img_blank
+
+
